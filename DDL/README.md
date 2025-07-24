@@ -59,3 +59,10 @@ Confira os próximos capítulos:
 
 - [DML – Manipulação de Dados](../DML/README.md)
 - [DQL – Consulta de Dados](../DQL/README.md)
+
+---
+
+## ✍️ Autor
+
+**Henrique César**  
+📫 [linkedin.com/in/henrique-teixeira24](https://www.linkedin.com/in/henrique-teixeira24)
