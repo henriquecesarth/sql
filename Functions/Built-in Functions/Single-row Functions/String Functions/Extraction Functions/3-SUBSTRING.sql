@@ -17,6 +17,6 @@
 
 SELECT 
     first_name,                                             -- Nome original do cliente
-    SUBSTRING(first_name, 2, LEN(first_name) - 1) AS name_middle_letters -- Letras do meio do nome
+    SUBSTRING(first_name, 2, LEN(first_name) - 1) AS name_last_letters -- Letras do finais do nome
 FROM
     customers;
