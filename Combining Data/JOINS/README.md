@@ -14,7 +14,8 @@ No SQL, os **JOINs** permitem combinar dados de duas ou mais tabelas com base em
 - [RIGHT ANTI JOIN](#right-anti-join)
 - [FULL ANTI JOIN](#full-anti-join)
 - [CROSS JOIN](#cross-join)
-
+- [🧠 Situações comuns de uso](#-situações-comuns-de-uso)
+  
 ---
 
 ## 🔹 INNER JOIN
@@ -92,20 +93,19 @@ No SQL, os **JOINs** permitem combinar dados de duas ou mais tabelas com base em
 
 ---
 
-## 🧭 Dica Final
+## 🧠 Situações Comuns de Uso
 
-Entender os JOINs é essencial para dominar SQL. Eles são a ponte entre os dados e as análises complexas que você pode fazer.
-
-> “Quem domina os JOINs, domina o banco.”
+| Situação                        | JOINs Utilizados                              | Descrição                                                                 |
+|-------------------------------|----------------------------------------------|---------------------------------------------------------------------------|
+| 🔄 Recombinar Dados (Big Picture) | `INNER JOIN`, `LEFT JOIN`, `FULL JOIN`        | Utilizado quando queremos montar uma visão combinada de várias tabelas.  |
+| ➕ Enriquecimento de Dados       | `LEFT JOIN`                                   | Usado para adicionar colunas de dados extras a uma base principal.       |
+| 🔍 Verificação de Existência     | `INNER JOIN`, `LEFT JOIN + WHERE`, `FULL JOIN + WHERE` | Ideal para checar se registros estão ou não presentes em outra tabela.  |
 
 ---
 
-## 📁 Próximo passo
+## ✍️ Autor
 
-Explore também:
-
-- [DQL – Consulta de Dados](../DQL/README.md)
-- [DML – Manipulação de Dados](../DML/README.md)
-- [DDL – Definição de Estrutura](../DDL/README.md)
+Este material foi preparado com 💙 por **Henrique Teixeira**  
+🔗 [linkedin.com/in/henrique-teixeira24](https://www.linkedin.com/in/henrique-teixeira24)
 
 ---
