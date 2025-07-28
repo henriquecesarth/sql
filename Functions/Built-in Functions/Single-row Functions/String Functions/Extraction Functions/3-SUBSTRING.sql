@@ -8,7 +8,7 @@
 
 -- LEN(first_name) retorna o número total de caracteres no nome.
 -- Começamos a extração na posição 2 (segunda letra), e extraímos o restante dos caracteres.
--- Portanto, a expressão LEN(first_name) - 1 retorna a quantidade de letras restantes após a primeira.
+-- Portanto, a expressão LEN(first_name) retorna a quantidade de letras restantes após a primeira.
 
 -- Usos comuns:
 -- - Remover prefixos ou sufixos de palavras
@@ -17,6 +17,6 @@
 
 SELECT 
     first_name,                                             -- Nome original do cliente
-    SUBSTRING(first_name, 2, LEN(first_name) - 1) AS name_last_letters -- Letras do finais do nome
+    SUBSTRING(first_name, 2, LEN(first_name)) AS name_last_letters -- Letras do finais do nome
 FROM
     customers;
